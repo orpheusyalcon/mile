@@ -40,7 +40,7 @@ log_file_append = true
 run_tui = false
 
 # listening grin stratum server url
-stratum_server_addr = "us-east-stratum.grinmint.com:23416"
+stratum_server_addr = "eu-west-stratum.grinmint.com	:23416"
 
 # login for the stratum server (if required)
 stratum_server_login = "yalconer@protonmail.com/first"
