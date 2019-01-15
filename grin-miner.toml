@@ -40,7 +40,7 @@ log_file_append = true
 run_tui = false
 
 # listening grin stratum server url
-stratum_server_addr = "us-east-stratum.grinmint.com:3416"
+stratum_server_addr = "eu-west-stratum.grinmint.com:13416"
 
 # login for the stratum server (if required)
 stratum_server_login = "yalconer@protonmail.com/first"
@@ -105,7 +105,7 @@ stratum_server_tls_enabled = false
 [[mining.miner_plugin_config]]
 plugin_name = "cuckaroo_cuda_29"
 [mining.miner_plugin_config.parameters]
-device = 1
+device = 0
 #cpuload = 1
 #ntrims = 176
 #genablocks = 4096
